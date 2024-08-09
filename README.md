@@ -1,6 +1,6 @@
 This is a very basic DeSimone Family Reunion page.  
 
-For now, it simply links to a copy of the current Family Tree. 
+If you have any requested changes to the family tree or images you would like to be included, please email anthonybarnes@gmail.com.
 
 <A HREF="DeSimone Reunion 2024.htm"> Family Tree </A>
 
