@@ -4,4 +4,4 @@ If you have any requested changes to the family tree or images you would like to
 
 <A HREF="DeSimone Reunion 2024.htm"> Family Tree </A>
 
-<A HREF="Reunion 2024 Outline"> Outline of events </A>
+<A HREF="Reunion 2024 Outline.md"> Outline of events </A>
