@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DeSimone Family Tree</title>
+  <style>
+    ul { list-style-type: none; padding-left: 20px; }
+    li { margin: 4px 0; cursor: pointer; }
+    .nested { display: none; }
+    .active { display: block; }
+    .caret::before {
+      content: "\25B6";
+      color: black;
+      display: inline-block;
+      margin-right: 6px;
+    }
+    .caret-down::before {
+      transform: rotate(90deg);
+    }
+  </style>
+</head>
+<body>
+  <h1>DeSimone Family Tree</h1>
+  <ul id="tree-container"></ul>
+
+  <script>
+    const treeData = PLACEHOLDER_JSON;
+
+    function createTreeElement(node) {
+      const li = document.createElement('li');
+      li.textContent = node.name;
+      if (node.children && node.children.length > 0) {
+        li.classList.add('caret');
+        const ul = document.createElement('ul');
+        ul.classList.add('nested');
+        node.children.forEach(child => ul.appendChild(createTreeElement(child)));
+        li.appendChild(ul);
+        li.addEventListener('click', function (e) {
+          e.stopPropagation();
+          this.classList.toggle('caret-down');
+          ul.classList.toggle('active');
+        });
+      }
+      return li;
+    }
+
+    const treeContainer = document.getElementById('tree-container');
+    treeContainer.appendChild(createTreeElement(treeData));
+  </script>
+</body>
+</html>
