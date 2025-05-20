@@ -15,8 +15,3 @@ The Family Tree has been updated based on all of the feedback from individuals w
 <A HREF="2024Pictures.html"> Pictures from 2024 </A>
 
 
-
-
-<BR><BR>
-<BR><BR>
-<A HREF="FamilyTreeTEST.htm"> . </A>
