@@ -1,4 +1,6 @@
-<meta name="robots" content="noindex, nofollow">
+<Head>
+  <meta name="robots" content="noindex, nofollow">
+</Head>
 <B> 2026 REUNION DATE - Saturday August 8th </B> <BR>
 <A HREF="https://www.google.com/maps/place/Massa+Harbison+Park/@40.5677609,-79.7525593,856m/data=!3m2!1e3!4b1!4m6!3m5!1s0x883495d967f3641d:0xb8b456e133062d7c!8m2!3d40.5677609!4d-79.7525593!16s%2Fg%2F11fr0qgzxf?entry=ttu&g_ep=EgoyMDI1MDYwOS4xIKXMDSoASAFQAw%3D%3D">
 Massa Harbison Park
